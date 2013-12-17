@@ -1,0 +1,195 @@
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tinos'), url(http://themes.googleusercontent.com/static/fonts/tinos/v5/C8vzv480UKDveCPk8l9XHQ.woff) format('woff');
+}
+@font-face {
+  font-family: 'Tinos';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Tinos Bold'), local('Tinos-Bold'), url(http://themes.googleusercontent.com/static/fonts/tinos/v5/r7ygpzWtF3nxLEGd26jZfvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Neucha';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Neucha'), url(http://themes.googleusercontent.com/static/fonts/neucha/v4/XE-CQUm9nMnSxYSbi8LNmQ.woff) format('woff');
+}
+
+html {
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+}
+body {
+   width: 1000px;
+   height: 700px;
+   font-family: 'Neucha', cursive;
+   font-size: xx-large;
+   font-style: italic;
+   margin: auto;
+   background-color: #100060;
+   position: relative;
+}
+
+.center {
+   margin: auto;
+}
+
+.hny {
+   color: white;
+   text-align: center;
+   top: 0%;
+}
+
+.federatio {
+   font-weight: bold;
+   font-style: normal;
+   font-family: 'Tinos', serif;
+}
+.federatio:before, .federatio:after {
+   background: url("/images/fed.svg") no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   -ms-background-size: cover;
+   background-size: cover;
+   display: inline-block;
+   height: 0.7em;
+   width: 0.7em;
+   content: "";
+}
+.federatio:before {
+   margin-right: 3px;
+}
+.federatio:after {
+   margin-left: 3px;
+}
+
+
+@keyframes snow1 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 500px 1000px;
+   }
+}
+@-moz-keyframes snow1 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 500px 1000px;
+   }
+}
+@-webkit-keyframes snow1 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 500px 1000px;
+   }
+}
+@-ms-keyframes snow1 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 500px 1000px;
+   }
+}
+@keyframes snow2 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 400px 400px;
+   }
+}
+@-moz-keyframes snow2 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 400px 400px;
+   }
+}
+@-webkit-keyframes snow2 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 400px 400px;
+   }
+}
+@-ms-keyframes snow2 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 400px 400px;
+   }
+}
+@keyframes snow3 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 300px 300px;
+   }
+}
+@-moz-keyframes snow3 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 300px 300px;
+   }
+}
+@-webkit-keyframes snow3 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 300px 300px;
+   }
+}
+@-ms-keyframes snow3 {
+   0% {
+      background-position: 0px 0px;
+   }
+   100% {
+      background-position: 300px 300px;
+   }
+}
+
+.snowflake1, .snowflake2, .snowflake3 {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   height: 700px;
+   width: 1000px;
+}
+.snowflake1 {
+   background: url("/images/snowflake1.svg") repeat;
+   -webkit-animation: snow1 25s linear infinite;
+   -moz-animation: snow1 25s linear infinite;
+   -ms-animation: snow1 25s linear infinite;
+   animation: snow1 25s linear infinite;
+}
+.snowflake2 {
+   background: url("/images/snowflake2.svg") repeat;
+   -webkit-animation: snow2 25s linear infinite;
+   -moz-animation: snow2 25s linear infinite;
+   -ms-animation: snow2 25s linear infinite;
+   animation: snow2 25s linear infinite;
+}
+.snowflake3 {
+   background: url("/images/snowflake3.svg") repeat;
+   -webkit-animation: snow3 25s linear infinite;
+   -moz-animation: snow3 25s linear infinite;
+   -ms-animation: snow3 25s linear infinite;
+   animation: snow3 25s linear infinite;
+}
