@@ -317,6 +317,9 @@ body {
    bottom: 0px;
    background-color: #eee;
    position: absolute;
+   -webkit-border-radius: 60% 40% 0% 0%/100% 70% 0% 0%;
+   -moz-border-radius: 60% 40% 0% 0%/100% 70% 0% 0%;
+   -ms-border-radius: 60% 40% 0% 0%/100% 70% 0% 0%;
    border-radius: 60% 40% 0% 0%/100% 70% 0% 0%;
 }
 .snow:before {
@@ -327,6 +330,9 @@ body {
    bottom: 0px;
    left: -10%;
    background-color: #fff;
+   -webkit-border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
+   -moz-border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
+   -ms-border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
    border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
    position: absolute;
 }
@@ -339,6 +345,9 @@ body {
    right: -10%;
    background-color: #eee;
    z-index: 0;
+   -webkit-border-radius: 80% 20% 0% 0%/90% 80% 0% 0%;
+   -moz-border-radius: 80% 20% 0% 0%/90% 80% 0% 0%;
+   -ms-border-radius: 80% 20% 0% 0%/90% 80% 0% 0%;
    border-radius: 80% 20% 0% 0%/90% 80% 0% 0%;
    position: absolute;
 }
@@ -352,6 +361,9 @@ body {
    left: 0%;
    width: 60%;
    height: 90px;
+   -webkit-border-radius: 0% 90% 0% 0%/0% 70% 0% 0%;
+   -moz-border-radius: 0% 90% 0% 0%/0% 70% 0% 0%;
+   -ms-border-radius: 0% 90% 0% 0%/0% 70% 0% 0%;
    border-radius: 0% 90% 0% 0%/0% 70% 0% 0%;
 }
 #snow2:before { display: none; }
@@ -359,6 +371,9 @@ body {
    right: 0%;
    width: 60%;
    height: 100px;
+   -webkit-border-radius: 80% 0% 0%/90% 0% 0% 0%;
+   -moz-border-radius: 80% 0% 0%/90% 0% 0% 0%;
+   -ms-border-radius: 80% 0% 0%/90% 0% 0% 0%;
    border-radius: 80% 0% 0%/90% 0% 0% 0%;
 }
 #snow3:after { display: none; }
