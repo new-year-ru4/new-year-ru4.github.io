@@ -20,7 +20,7 @@
 html {
    width: 100%;
    height: 100%;
-   background-color: #fff;
+   background-color: #111;
 }
 body {
    width: 1000px;
@@ -49,7 +49,7 @@ body {
    font-family: 'Tinos', serif;
 }
 .federatio:before, .federatio:after {
-   background: url("/images/fed.svg") no-repeat center center;
+   background: url("/images/fed.png") no-repeat center center;
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
@@ -137,7 +137,7 @@ body {
       background-position: 0px 0px;
    }
    100% {
-      background-position: 300px 300px;
+      background-position: 600px 300px;
    }
 }
 @-moz-keyframes snow3 {
@@ -145,7 +145,7 @@ body {
       background-position: 0px 0px;
    }
    100% {
-      background-position: 300px 300px;
+      background-position: 600px 300px;
    }
 }
 @-webkit-keyframes snow3 {
@@ -153,7 +153,7 @@ body {
       background-position: 0px 0px;
    }
    100% {
-      background-position: 300px 300px;
+      background-position: 600px 300px;
    }
 }
 @-ms-keyframes snow3 {
@@ -161,7 +161,7 @@ body {
       background-position: 0px 0px;
    }
    100% {
-      background-position: 300px 300px;
+      background-position: 600px 300px;
    }
 }
 
@@ -169,25 +169,25 @@ body {
    position: absolute;
    top: 0px;
    left: 0px;
-   height: 700px;
-   width: 1000px;
+   height: 100%;
+   width: 100%;
 }
 .snowflake1 {
-   background: url("/images/snowflake1.svg") repeat;
+   background: url("/images/snowflake1.png") repeat;
    -webkit-animation: snow1 25s linear infinite;
    -moz-animation: snow1 25s linear infinite;
    -ms-animation: snow1 25s linear infinite;
    animation: snow1 25s linear infinite;
 }
 .snowflake2 {
-   background: url("/images/snowflake2.svg") repeat;
+   background: url("/images/snowflake2.png") repeat;
    -webkit-animation: snow2 25s linear infinite;
    -moz-animation: snow2 25s linear infinite;
    -ms-animation: snow2 25s linear infinite;
    animation: snow2 25s linear infinite;
 }
 .snowflake3 {
-   background: url("/images/snowflake3.svg") repeat;
+   background: url("/images/snowflake3.png") repeat;
    -webkit-animation: snow3 25s linear infinite;
    -moz-animation: snow3 25s linear infinite;
    -ms-animation: snow3 25s linear infinite;
