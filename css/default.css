@@ -38,9 +38,11 @@ body {
 }
 
 .hny {
+   position: absolute;
    color: white;
    text-align: center;
-   top: 0%;
+   top: 20px;
+   width: 1000px;
 }
 
 .federatio {
@@ -193,3 +195,170 @@ body {
    -ms-animation: snow3 25s linear infinite;
    animation: snow3 25s linear infinite;
 }
+
+.fir {
+   position: relative;
+   width: auto;
+   height: 650px;
+}
+.fir div {
+   position: absolute;
+}
+.fir .stage {
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   border-radius: 100%;
+}
+.fir .stage:before, .fir .stage:after {
+   position: absolute;
+   content: "";
+   background-color: #100060;
+}
+.fir .stage:before {
+   -webkit-border-radius: 0 0 50% 0;
+   -moz-border-radius: 0 0 50% 0;
+   -ms-border-radius: 0 0 50% 0;
+   border-radius: 0 0 50% 0;
+}
+.fir .stage:after {
+   -webkit-border-radius: 0 0 0 50%;
+   -moz-border-radius: 0 0 0 50%;
+   -ms-border-radius: 0 0 0 50%;
+   border-radius: 0 0 0 50%;
+}
+
+.trunk {
+   background-color: black;
+   width: 50px;
+   height: 500px;
+   bottom: 0;
+   left: 475px;
+}
+
+#stage1 {
+   background-color: #003200;
+   bottom: 100px;
+   left: 150px;
+   width: 700px;
+   height: 500px;
+}
+#stage1:before, #stage1:after {
+   bottom: 15px;
+   width: 500px;
+   height: 750px;
+}
+#stage1:before {
+   left: -150px;
+}
+#stage1:after {
+   right: -150px;
+}
+
+#stage2 {
+   background-color: #005a00;
+   bottom: 200px;
+   left: 200px;
+   width: 600px;
+   height: 400px;
+}
+#stage2:before, #stage2:after {
+   bottom: 10px;
+   width: 500px;
+   height: 600px;
+}
+#stage2:before {
+   left: -200px;
+}
+#stage2:after {
+   right: -200px;
+}
+
+#stage3 {
+   background-color: #008000;
+   bottom: 300px;
+   left: 250px;
+   width: 500px;
+   height: 300px;
+}
+#stage3:before, #stage3:after {
+   bottom: 5px;
+   width: 500px;
+   height: 450px;
+}
+#stage3:before {
+   left: -250px;
+}
+#stage3:after {
+   right: -250px;
+}
+
+#stage4 {
+   background-color: #00a600;
+   bottom: 400px;
+   left: 300px;
+   width: 400px;
+   height: 300px;
+}
+#stage4:before, #stage4:after {
+   bottom: 0px;
+   width: 500px;
+   height: 300px;
+}
+#stage4:before {
+   left: -300px;
+}
+#stage4:after {
+   right: -300px;
+}
+
+.snow {
+   border: #ccc solid 1px;
+   bottom: 0px;
+   background-color: #eee;
+   position: absolute;
+   border-radius: 60% 40% 0% 0%/100% 70% 0% 0%;
+}
+.snow:before {
+   border: #ccc solid 1px;
+   content: "";
+   width: 100%;
+   height: 90%;
+   bottom: 0px;
+   left: -10%;
+   background-color: #fff;
+   border-radius: 50% 50% 0% 0%/100% 100% 0% 0%;
+   position: absolute;
+}
+.snow:after {
+   border: #ccc solid 1px;
+   content: "";
+   width: 100%;
+   height: 60%;
+   bottom: 0px;
+   right: -10%;
+   background-color: #eee;
+   z-index: 0;
+   border-radius: 80% 20% 0% 0%/90% 80% 0% 0%;
+   position: absolute;
+}
+
+#snow1 {
+   left: 15%;
+   width: 70%;
+   height: 100px;
+}
+#snow2 {
+   left: 0%;
+   width: 60%;
+   height: 90px;
+   border-radius: 0% 90% 0% 0%/0% 70% 0% 0%;
+}
+#snow2:before { display: none; }
+#snow3 {
+   right: 0%;
+   width: 60%;
+   height: 100px;
+   border-radius: 80% 0% 0%/90% 0% 0% 0%;
+}
+#snow3:after { display: none; }
