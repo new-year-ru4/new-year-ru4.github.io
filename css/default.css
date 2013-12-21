@@ -984,57 +984,81 @@ div [class^="light-"] {
 
 @keyframes ship {
    0%, 100% {
+      -webkit-transform: translate(0px, 20px) rotate(5deg);
+      -moz-transform: translate(0px, 20px) rotate(5deg);
+      -ms-transform: translate(0px, 20px) rotate(5deg);
       transform: translate(0px, 20px) rotate(5deg);
    }
    25% {
+      -webkit-transform: translate(5px, -5px) rotate(0deg);
+      -moz-transform: translate(5px, -5px) rotate(0deg);
+      -ms-transform: translate(5px, -5px) rotate(0deg);
       transform: translate(5px, -5px) rotate(0deg);
    }
    50% {
+      -webkit-transform: translate(5px, -5px) rotate(-5deg);
+      -moz-transform: translate(5px, -5px) rotate(-5deg);
+      -ms-transform: translate(5px, -5px) rotate(-5deg);
       transform: translate(5px, -5px) rotate(-5deg);
    }
    75% {
+      -webkit-transform: translate(-5px, 0px) rotate(0deg);
+      -moz-transform: translate(-5px, 0px) rotate(0deg);
+      -ms-transform: translate(-5px, 0px) rotate(0deg);
       transform: translate(-5px, 0px) rotate(0deg);
    }
 }
 @-ms-keyframes ship {
    0%, 100% {
+      -ms-transform: translate(0px, 20px) rotate(5deg);
       transform: translate(0px, 20px) rotate(5deg);
    }
    25% {
+      -ms-transform: translate(5px, -5px) rotate(0deg);
       transform: translate(5px, -5px) rotate(0deg);
    }
    50% {
+      -ms-transform: translate(5px, -5px) rotate(-5deg);
       transform: translate(5px, -5px) rotate(-5deg);
    }
    75% {
+      -ms-transform: translate(-5px, 0px) rotate(0deg);
       transform: translate(-5px, 0px) rotate(0deg);
    }
 }
 @-moz-keyframes ship {
    0%, 100% {
+      -moz-transform: translate(0px, 20px) rotate(5deg);
       transform: translate(0px, 20px) rotate(5deg);
    }
    25% {
+      -moz-transform: translate(5px, -5px) rotate(0deg);
       transform: translate(5px, -5px) rotate(0deg);
    }
    50% {
+      -moz-transform: translate(5px, -5px) rotate(-5deg);
       transform: translate(5px, -5px) rotate(-5deg);
    }
    75% {
+      -moz-transform: translate(-5px, 0px) rotate(0deg);
       transform: translate(-5px, 0px) rotate(0deg);
    }
 }
 @-webkit-keyframes ship {
    0%, 100% {
+      -webkit-transform: translate(0px, 20px) rotate(5deg);
       transform: translate(0px, 20px) rotate(5deg);
    }
    25% {
+      -webkit-transform: translate(5px, -5px) rotate(0deg);
       transform: translate(5px, -5px) rotate(0deg);
    }
    50% {
+      -webkit-transform: translate(5px, -5px) rotate(-5deg);
       transform: translate(5px, -5px) rotate(-5deg);
    }
    75% {
+      -webkit-transform: translate(-5px, 0px) rotate(0deg);
       transform: translate(-5px, 0px) rotate(0deg);
    }
 }
