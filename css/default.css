@@ -167,33 +167,48 @@ body {
    }
 }
 
-.snowflake1, .snowflake2, .snowflake3 {
+div[class^=snowflake], div[class^=snowanch] {
    position: absolute;
    top: 0px;
    left: 0px;
    height: 100%;
    width: 100%;
 }
-.snowflake1 {
-   background: url("/images/snowflake1.png") repeat;
+.snowflake1, .snowanch1 {
    -webkit-animation: snow1 25s linear infinite;
    -moz-animation: snow1 25s linear infinite;
    -ms-animation: snow1 25s linear infinite;
    animation: snow1 25s linear infinite;
 }
-.snowflake2 {
-   background: url("/images/snowflake2.png") repeat;
+.snowflake2, .snowanch2 {
    -webkit-animation: snow2 25s linear infinite;
    -moz-animation: snow2 25s linear infinite;
    -ms-animation: snow2 25s linear infinite;
    animation: snow2 25s linear infinite;
 }
-.snowflake3 {
-   background: url("/images/snowflake3.png") repeat;
+.snowflake3, .snowanch3 {
    -webkit-animation: snow3 25s linear infinite;
    -moz-animation: snow3 25s linear infinite;
    -ms-animation: snow3 25s linear infinite;
    animation: snow3 25s linear infinite;
+}
+.snowflake1 {
+   background: url("/images/snowflake1.png") repeat;
+}
+.snowflake2 {
+   background: url("/images/snowflake2.png") repeat;
+}
+.snowflake3 {
+   background: url("/images/snowflake3.png") repeat;
+}
+.snowanch1 {
+   background: url("/images/snowanch1.png") repeat;
+}
+.snowanch2 {
+   background: url("/images/snowanch2.png") repeat;
+}
+.snowanch3 {
+   background: url("/images/snowanch3.png") repeat;
 }
 
 .fir {
@@ -884,4 +899,114 @@ div [class^="light-"] {
 .light15 {
    top: -140px;
    left: 210px;
+}
+
+@keyframes waves {
+   0% {
+      background-position: 0 -150%; /*, 0 top;*/
+   }
+   25% {
+      background-position: 10% -10%; /*, 75% -150%;*/
+   }
+   50% {
+      background-position: 0% -140%; /*, 150% -10%;*/
+   }
+   75% {
+      background-position: -10% -20%; /*, 225% -130%;*/
+   }
+   100% {
+      background-position: 0% -150%; /*, 300% top;*/
+   }
+}
+@-ms-keyframes waves {
+   0% {
+      background-position: 0 -150%; /*, 0 top;*/
+   }
+   25% {
+      background-position: 10% -10%; /*, 75% -150%;*/
+   }
+   50% {
+      background-position: 0% -140%; /*, 150% -10%;*/
+   }
+   75% {
+      background-position: -10% -20%; /*, 225% -130%;*/
+   }
+   100% {
+      background-position: 0% -150%; /*, 300% top;*/
+   }
+}
+@-moz-keyframes waves {
+   0% {
+      background-position: 0 -150%; /*, 0 top;*/
+   }
+   25% {
+      background-position: 10% -10%; /*, 75% -150%;*/
+   }
+   50% {
+      background-position: 0% -140%; /*, 150% -10%;*/
+   }
+   75% {
+      background-position: -10% -20%; /*, 225% -130%;*/
+   }
+   100% {
+      background-position: 0% -150%; /*, 300% top;*/
+   }
+}
+@-webkit-keyframes waves {
+   0% {
+      background-position: 0 -150%; /*, 0 top;*/
+   }
+   25% {
+      background-position: 10% -10%; /*, 75% -150%;*/
+   }
+   50% {
+      background-position: 0% -140%; /*, 150% -10%;*/
+   }
+   75% {
+      background-position: -10% -20%; /*, 225% -130%;*/
+   }
+   100% {
+      background-position: 0% -150%; /*, 300% top;*/
+   }
+}
+
+.waves {
+   position: absolute;
+   width: 100%;
+   height: 100px;
+   bottom: 0px;
+   background: url("/images/wave1.png") repeat-x;
+   -webkit-animation: waves 30s linear infinite;
+   -moz-animation: waves 30s linear infinite;
+   -ms-animation: waves 30s linear infinite;
+   animation: waves 30s linear infinite;
+}
+
+@keyframes ship {
+   0%, 100% {
+      transform: translate(0px, 20px) rotate(5deg);
+   }
+   25% {
+      transform: translate(5px, -5px) rotate(0deg);
+   }
+   50% {
+      transform: translate(5px, -5px) rotate(-5deg);
+   }
+   75% {
+      transform: translate(-5px, 0px) rotate(0deg);
+   }
+}
+
+.ship {
+   background: url("/images/ship.svg") no-repeat bottom center;
+   position: absolute;
+   left: 100px;
+   bottom: 20px;
+   width: 800px;
+   height: 700px;
+/*      transform: translate(-5px, 0px) rotate(0deg);*/
+   -webkit-animation: ship 20s linear infinite;
+   -moz-animation: ship 20s linear infinite;
+   -ms-animation: ship 20s linear infinite;
+   animation: ship 20s linear infinite;
 }
