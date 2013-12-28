@@ -1078,27 +1078,26 @@ div [class^="light-"] {
 
 div#snowmaiden {
    position: absolute;
-   border: gray 1px solid;
+   border: 1px dotted #201070;
    left: 10px;
    top: 150px;
    width: 200px;
    height: 400px;
 }
-
-div#snowmaiden:active {
+.snowmaiden-hover {
    background: url("/images/Ivvi.png") no-repeat center;
    background-size: contain;
 }
 
 div#grandfatherfrost {
    position: absolute;
-   border: gray 1px solid;
+   border: 1px dotted #201070;
    right: 0px;
    top: 100px;
    width: 250px;
    height: 250px;
 }
-div#grandfatherfrost:active {
+.grandfatherfrost-hover {
    background: url("/images/Andrei.png") no-repeat center;
    background-size: contain;
 }
