@@ -1078,7 +1078,7 @@ div [class^="light-"] {
 
 div#snowmaiden {
    position: absolute;
-   border: 1px dotted #201070;
+   border: 1px dotted #ccc;
    left: 10px;
    top: 150px;
    width: 200px;
@@ -1091,7 +1091,7 @@ div#snowmaiden {
 
 div#grandfatherfrost {
    position: absolute;
-   border: 1px dotted #201070;
+   border: 1px dotted #ccc;
    right: 0px;
    top: 100px;
    width: 250px;
